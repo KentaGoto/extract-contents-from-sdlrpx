@@ -24,3 +24,6 @@ if __name__ == '__main__':
         filepath = folder + "/" + ext
         with zipfile.ZipFile(i) as zip_f:
             zip_f.extractall(pathlib.Path(filepath).parent)
+
+    print("Done!")
+    os.system("pause > nul")
